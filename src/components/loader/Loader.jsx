@@ -1,15 +1,15 @@
-import { Triangle } from 'react-loader-spinner';
+import { ColorRing } from 'react-loader-spinner';
 
 export const Loader = () => {
     return (
-        <Triangle
-          height="80"
-          width="100%"
-          color="#3f51b5"
-          ariaLabel="triangle-loading"
-          wrapperStyle={{}}
-          wrapperClassName=""
-          visible={true}
-        />
-      )
+      <ColorRing
+        visible={true}
+        height="80"
+        width="80"
+        ariaLabel="blocks-loading"
+        wrapperStyle={{}}
+        wrapperClass="blocks-wrapper"
+        colors={['#e15b64', '#f47e60', '#f8b26a', '#abbd81', '#849b87']}
+      />
+    )
 }

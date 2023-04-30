@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { fetchImages } from './servis/pixabay_Api';
+import { fetchImages } from '../servis/pixabay_Api';
 import { Searchbar } from './searchBar/SearchBar';
 import { ImageGallery } from './imageGallery/ImageGallery';
 import { Btn } from './btn/Btn';
@@ -46,7 +46,7 @@ export class App extends Component {
       }));
     } catch (error) {
       this.setState({ error });
-    } finally {
+    }finally {
       this.setState({ isLoading: false });
     }
   };
