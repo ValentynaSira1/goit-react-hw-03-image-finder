@@ -6,7 +6,7 @@ import { Btn } from './btn/Btn';
 import { Loader } from './loader/Loader';
 import { ToastContainer, toast } from 'react-toastify';
 import { Modal } from './modal/Modal';
-import 'react-toastify/dist/ReactToastify.css';
+// import 'react-toastify/dist/ReactToastify.css';
 import css from './App.module.css';
 
 export class App extends Component {
